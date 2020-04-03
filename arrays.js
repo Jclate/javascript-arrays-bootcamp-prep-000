@@ -12,3 +12,17 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   beg = beg.unshift(neg);
   return beg;
 }
+
+function addElementToEndOfArray(array, element) {
+  var beg = array
+  var neg = element
+  beg = [beg,...neg]
+  return beg;
+}
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  var beg = array;
+  var neg = element;
+  beg = beg.push(neg);
+  return beg;
+}
