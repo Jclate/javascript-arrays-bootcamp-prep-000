@@ -16,7 +16,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {
   var beg = array
   var neg = element
-  beg = [beg,...neg]
+  beg = [...beg, neg]
   return beg;
 }
 
