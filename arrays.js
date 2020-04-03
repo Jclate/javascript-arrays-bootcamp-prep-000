@@ -43,3 +43,8 @@ function removeElementFromBeginningOfArray(array) {
   var mats = cats.slice(1)
   return cats
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  var cats = array
+  cats = cats.pop()
+}
